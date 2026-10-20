@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080916">
+    <meta name="description" content="Артемий Трихалкин — Python Backend Developer. Навыки, опыт и проекты.">
+    <title>Артемий Трихалкин — Backend Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo" href="#home" aria-label="На главную">桜</a>
+
+        <button class="header__menu" type="button" aria-label="Открыть меню" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--active" href="#home">Главная</a>
+            <a class="navigation__link" href="#about">Обо мне</a>
+            <a class="navigation__link" href="#skills">Навыки</a>
+            <a class="navigation__link" href="#experience">Опыт</a>
+            <a class="navigation__link" href="#projects">Проекты</a>
+            <a class="navigation__link" href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="header__github" href="https://github.com/Cozdig" target="_blank" rel="noreferrer">
+            <span class="header__github-icon">⌘</span>
+            GitHub <span class="external-link">↗</span>
+        </a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__background"></div>
+            <div class="hero__overlay"></div>
+            <div class="hero__petals" aria-hidden="true"></div>
+
+            <div class="hero__content">
+                <p class="hero__eyebrow">
+                    <span></span>
+                    PYTHON BACKEND DEVELOPER
+                </p>
+
+                <p class="hero__greeting">Привет, меня зовут</p>
+
+                <h1 class="hero__title">
+                    Артемий
+                    <span>Трихалкин</span>
+                </h1>
+
+                <h2 class="hero__subtitle">Python Backend Developer</h2>
+
+                <p class="hero__description">
+                    Разрабатываю и поддерживаю backend-сервисы на Python.
+                    Работаю с API, базами данных, интеграциями и фоновой
+                    обработкой задач.
+                </p>
+
+                <div class="hero__actions">
+                    <a class="button button--primary" href="#projects">
+                        Посмотреть проекты <span>→</span>
+                    </a>
+
+                    <a class="button button--outline" href="https://github.com/Cozdig"
+                       target="_blank" rel="noreferrer">
+                        Мой GitHub <span>↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__bottom">
+                <span class="hero__status">
+                    <span></span> Python · Backend
+                </span>
+                <span class="hero__japanese">静かな強さ — тихая сила</span>
+            </div>
+
+            <span class="hero__vertical" aria-hidden="true">桜 · 月 · 刃</span>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="section__intro">
+                <p class="section__eyebrow">01 / НАВЫКИ</p>
+                <h2 class="section__title">Мой рабочий<br><span>инструментарий</span></h2>
+                <p class="section__description">
+                    Основной фокус — серверная разработка на Python:
+                    API, бизнес-логика, базы данных и фоновые задачи.
+                </p>
+            </div>
+
+            <div class="skills__grid">
+                <article class="skill">
+                    <span class="skill__icon">Py</span>
+                    <h3>Python</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">dj</span>
+                    <h3>Django</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon skill__icon--small">DRF</span>
+                    <h3>Django REST Framework</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">▤</span>
+                    <h3>PostgreSQL</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">≋</span>
+                    <h3>Redis</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">Cel</span>
+                    <h3>Celery</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">▰</span>
+                    <h3>Docker</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">⌘</span>
+                    <h3>Git</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">✓</span>
+                    <h3>Pytest</h3>
+                </article>
+                <article class="skill">
+                    <span class="skill__icon">⌁</span>
+                    <h3>Linux</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="section experience" id="experience">
+            <div class="section__intro">
+                <p class="section__eyebrow">02 / ОПЫТ</p>
+                <h2 class="section__title">Не только писать,<br><span>но и разбираться</span></h2>
+                <p class="section__description">
+                    Работаю с существующим кодом, ищу причины ошибок
+                    и дорабатываю функциональность с учётом устройства проекта.
+                </p>
+            </div>
+
+            <article class="experience__item">
+                <div class="experience__marker"></div>
+
+                <div class="experience__heading">
+                    <div>
+                        <h3>Keisenpai</h3>
+                        <p>Python Backend Developer</p>
+                    </div>
+                    <span class="experience__label">Коммерческий опыт</span>
+                </div>
+
+                <p class="experience__description">
+                    Разработка и поддержка backend образовательной платформы
+                    на Django и Django REST Framework.
+                </p>
+
+                <ul class="experience__list">
+                    <li>Разработка и поддержка API и серверной логики.</li>
+                    <li>Работа с PostgreSQL, Redis и Celery.</li>
+                    <li>Интеграции с внешними сервисами.</li>
+                    <li>Исправление ошибок и тестирование изменений.</li>
+                    <li>Работа с Docker и локальным окружением проекта.</li>
+                </ul>
+
+                <div class="tags">
+                    <span>Django</span>
+                    <span>DRF</span>
+                    <span>PostgreSQL</span>
+                    <span>Celery</span>
+                    <span>Redis</span>
+                    <span>Docker</span>
+                </div>
+
+                <p class="experience__note">
+                    Рабочий репозиторий закрытый; здесь описаны задачи
+                    без публикации внутреннего кода.
+                </p>
+            </article>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="projects__heading">
+                <div>
+                    <p class="section__eyebrow">03 / ПРОЕКТЫ</p>
+                    <h2 class="section__title">Мои проекты <span>и код</span></h2>
+                </div>
+
+                <a class="text-link" href="https://github.com/Cozdig"
+                   target="_blank" rel="noreferrer">
+                    Все репозитории <span>↗</span>
+                </a>
+            </div>
+
+            <div class="projects__grid">
+                <article class="project-card">
+                    <div class="project-card__top">
+                        <span class="project-card__icon">▶</span>
+                        <span class="project-card__number">PROJECT / 01</span>
+                    </div>
+
+                    <h3>LimeTV</h3>
+                    <p>
+                        Проект, связанный с генерцией уведомлений.
+                        Реализацию и подробности можно посмотреть в исходном коде.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>GitHub</span>
+                    </div>
+
+                    <a class="project-card__link"
+                       href="https://github.com/Cozdig/LimeTV"
+                       target="_blank" rel="noreferrer">
+                        Открыть репозиторий <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card__top">
+                        <span class="project-card__icon">➤</span>
+                        <span class="project-card__number">PROJECT / 02</span>
+                    </div>
+
+                    <h3>auto_post_bot</h3>
+                    <p>
+                        Telegram-бот для автоматизации публикаций.
+                        Проект с прикладной логикой и работой с Telegram.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Telegram</span>
+                        <span>Automation</span>
+                    </div>
+
+                    <a class="project-card__link"
+                       href="https://github.com/Cozdig/auto_post_bot"
+                       target="_blank" rel="noreferrer">
+                        Открыть репозиторий <span>↗</span>
+                    </a>
+                </article>
+
+                <article class="project-card project-card--more">
+                    <div class="project-card__top">
+                        <span class="project-card__icon">{ }</span>
+                        <span class="project-card__number">PROJECT / 03</span>
+                    </div>
+
+                    <h3>Другие проекты</h3>
+                    <p>
+                        Больше проектов на моем GitHub
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Development</span>
+                    </div>
+
+                    <a class="project-card__link"
+                       href="https://github.com/Cozdig"
+                       target="_blank" rel="noreferrer">
+                        Перейти на GitHub <span>↗</span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__decoration" aria-hidden="true">桜</div>
+            <p class="section__eyebrow">04 / ОБО МНЕ</p>
+
+            <div class="about__content">
+                <h2 class="section__title">
+                    Ценю понятный код<br>
+                    и <span>решённые задачи.</span>
+                </h2>
+
+                <p>
+                    Мне нравится разбираться в устройстве приложений,
+                    работать с реальными ограничениями и улучшать существующие
+                    решения. Открыт к интересным backend-задачам и развитию
+                    в Python-разработке.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <a class="header__logo" href="#home" aria-label="Наверх">桜</a>
+
+        <div class="footer__identity">
+            <strong>Артемий Трихалкин</strong>
+            <span>Python Backend Developer</span>
+        </div>
+
+        <p class="footer__message">Спасибо за внимание.</p>
+
+        <a class="footer__github" href="https://github.com/Cozdig"
+           target="_blank" rel="noreferrer">
+            GitHub <span>↗</span>
+        </a>
+        
+        <a href="https://t.me/vgtfr" target="_blank" rel="noopener noreferrer" class="footer__link">
+            Telegram
+        </a>
+    </footer>
+</body>
+</html>
